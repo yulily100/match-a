@@ -1,7 +1,7 @@
 // Core (Main Style)
 
 header {
-  background: url("/match-a/images/main-image.jpg");
+  background: url("http://yulily100.github.io/match-a/images/main-image.jpg");
   background-size: cover;
   height: 400px;
   color: #fff;
@@ -54,11 +54,17 @@ h2, h3, h4 {
   letter-spacing: 4px;
 }
 footer {
-  background: $primary;
-  padding: 20px 0;
   text-align: center;
-  p {
-    margin: 0;
-    color: #fff;
-  }
+  margin: 100px 0 0 0;
+}
+.footer-logo {
+  width: 150px;
+  height: 170px;
+  margin-bottom: 60px;
+}
+.copyright {
+  background: $primary;
+  margin: 0;
+  color: #fff;
+  padding: 20px 0;
 }

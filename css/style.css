@@ -372,9 +372,6 @@ h1 a, h1 a:hover, h2 a, h2 a:hover, h3 a, h3 a:hover, h4 a, h4 a:hover, h5 a, h5
   width: 960px;
   margin-left: auto;
   margin-right: auto; }
-  @media (min-width: 1240px) {
-    .l-container {
-      width: 1170px; } }
   @media (max-width: 1024px) {
     .l-container {
       width: 720px; } }
@@ -450,7 +447,7 @@ h1 a, h1 a:hover, h2 a, h2 a:hover, h3 a, h3 a:hover, h4 a, h4 a:hover, h5 a, h5
   width: 91.66666667%; }
 
 header {
-  background: url("/match-a/images/main-image.jpg");
+  background: url("http://yulily100.github.io/match-a/images/main-image.jpg");
   background-size: cover;
   height: 400px;
   color: #fff;
@@ -508,9 +505,16 @@ h2, h3, h4 {
   letter-spacing: 4px; }
 
 footer {
+  text-align: center;
+  margin: 100px 0 0 0; }
+
+.footer-logo {
+  width: 150px;
+  height: 170px;
+  margin-bottom: 60px; }
+
+.copyright {
   background: #86A32C;
-  padding: 20px 0;
-  text-align: center; }
-  footer p {
-    margin: 0;
-    color: #fff; }
+  margin: 0;
+  color: #fff;
+  padding: 20px 0; }

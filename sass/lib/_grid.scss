@@ -3,9 +3,6 @@
     width: 960px;
     margin-left: auto;
     margin-right: auto;
-    @media #{$mq-lg} {
-        width: 1170px;
-    }
     @media #{$mq-md} {
         width: 720px;
     }
