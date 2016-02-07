@@ -459,6 +459,9 @@ header {
 
 .title-logo {
   margin: 0; }
+  .title-logo img {
+    width: 280px;
+    height: 330px; }
 
 .header-day {
   font-weight: bold;
