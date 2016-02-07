@@ -453,6 +453,10 @@ header {
   color: #fff;
   text-align: center;
   padding: 200px 0 0 0; }
+  @media (max-width: 767px) {
+    header {
+      height: 350px;
+      padding: 20px 0 0 0; } }
 
 .title-logo {
   margin: 0; }
