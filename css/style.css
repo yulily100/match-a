@@ -481,28 +481,16 @@ h2, h3 {
   margin: 60px 0; }
 
 .intro-title {
-  margin: 20px 0;
-  font-size: 250%;
+  margin: 20px 0 10px;
+  font-size: 200%;
   letter-spacing: 10px; }
 
 .workshop-detail {
-  *zoom: 1;
-  margin: 50px auto 0;
-  width: 720px; }
-  .workshop-detail:before,
-  .workshop-detail:after {
-    display: table;
-    content: " "; }
-  .workshop-detail:after {
-    clear: both; }
+  margin: 60px 0 0 0; }
 
-.workshop-contents {
-  width: 280px;
-  float: left;
-  margin: 0 40px; }
-  .workshop-contents img {
-    width: 160px;
-    height: 160px; }
+.workshop-contents img {
+  width: 160px;
+  height: 160px; }
 
 .workshop-title {
   margin: 5px 0;
@@ -510,9 +498,25 @@ h2, h3 {
   color: #86A32C; }
 
 .workshop-description {
-  margin: 5px 0;
+  margin: 5px 0 10px;
   font-size: 90%;
-  text-align: left; }
+  text-align: left;
+  line-height: 1.4; }
+
+.workshop-contents-detail {
+  font-size: 80%;
+  text-align: left;
+  line-height: 1.2;
+  border: 1px solid #ddd;
+  background: #f6f6f6;
+  padding: 8px;
+  border-radius: 3px; }
+
+.andmore {
+  color: #86A32C;
+  font-weight: bold;
+  font-size: 150%;
+  margin: 200px 0 0 0; }
 
 .sub-title {
   font-size: 145%;
