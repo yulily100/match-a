@@ -27,7 +27,7 @@ header {
   font-weight: bold;
   margin: 5px 0 0 0;
 }
-h2, h3, h4 {
+h2, h3 {
   color: $primary;
   font-family: 'Open Sans', sans-serif;
 }
@@ -42,13 +42,27 @@ h2, h3, h4 {
 }
 .workshop-detail {
   @include clearfix();
-  margin: 0 auto;
-  width: 680px;
+  margin: 50px auto 0;
+  width: 720px;
 }
 .workshop-contents {
   width: 280px;
   float: left;
-  margin: 0 30px;
+  margin: 0 40px;
+  img {
+    width: 160px;
+    height: 160px;
+  }
+}
+.workshop-title {
+  margin: 5px 0;
+  font-size: 120%;
+  color: $primary;
+}
+.workshop-description {
+  margin: 5px 0;
+  font-size: 90%;
+  text-align: left;
 }
 .sub-title {
   font-size: 145%;
