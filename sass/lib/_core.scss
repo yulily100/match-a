@@ -73,15 +73,14 @@ h2, h3 {
   padding: 8px;
   border-radius: 3px;
 }
-.andmore {
-  color: $primary;
-  font-weight: bold;
-  font-size: 150%;
-  margin: 200px 0 0 0;
-}
 .sub-title {
   font-size: 145%;
   letter-spacing: 4px;
+}
+.event-detail {
+  p {
+    margin: 0 0 5px;
+  }
 }
 footer {
   text-align: center;
