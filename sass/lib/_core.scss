@@ -62,12 +62,12 @@ h2, h3 {
   margin: 5px 0 10px;
   font-size: 90%;
   text-align: left;
-  line-height: 1.4;
+  line-height: 1.5;
 }
 .workshop-contents-detail {
   font-size: 80%;
   text-align: left;
-  line-height: 1.2;
+  line-height: 1.4;
   border: 1px solid #ddd;
   background: #f6f6f6;
   padding: 8px;
@@ -79,7 +79,11 @@ h2, h3 {
 }
 .event-detail {
   p {
-    margin: 0 0 5px;
+    margin: 0 0 8px;
+    line-height: 1.5;
+  }
+  .workshop-contents-detail {
+    margin: 0 0 16px;
   }
 }
 footer {

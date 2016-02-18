@@ -236,7 +236,8 @@ select {
  *    `input` and others.
  */
 button,
-html input[type="button"], input[type="reset"],
+html input[type="button"],
+input[type="reset"],
 input[type="submit"] {
   -webkit-appearance: button;
   /* 2 */
@@ -355,12 +356,13 @@ th {
 body {
   font-family: "Helvetica Neue" , Helvetica , Arial , "游ゴシック" , "Yu Gothic" , "游ゴシック体" , "YuGothic" , "ヒラギノ角ゴ Pro W3" , "Hiragino Kaku Gothic Pro" , "Meiryo UI" , "メイリオ" , Meiryo , "ＭＳ Ｐゴシック" , "MS PGothic" , sans-serif;
   color: #444;
-  -webkit-font-smoothing: antialiased; }
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.6; }
 
 a {
   color: #ddd;
-  -webkit-transition: all 0.2s;
-          transition: all 0.2s; }
+  -webkit-transition: all .2s;
+          transition: all .2s; }
   a:hover {
     color: #ddd; }
 
@@ -385,8 +387,7 @@ h1 a, h1 a:hover, h2 a, h2 a:hover, h3 a, h3 a:hover, h4 a, h4 a:hover, h5 a, h5
   margin-left: -15px;
   margin-right: -15px;
   *zoom: 1; }
-  .l-row:before,
-  .l-row:after {
+  .l-row:before, .l-row:after {
     display: table;
     content: " "; }
   .l-row:after {
@@ -505,12 +506,12 @@ h2, h3 {
   margin: 5px 0 10px;
   font-size: 90%;
   text-align: left;
-  line-height: 1.4; }
+  line-height: 1.5; }
 
 .workshop-contents-detail {
   font-size: 80%;
   text-align: left;
-  line-height: 1.2;
+  line-height: 1.4;
   border: 1px solid #ddd;
   background: #f6f6f6;
   padding: 8px;
@@ -521,7 +522,11 @@ h2, h3 {
   letter-spacing: 4px; }
 
 .event-detail p {
-  margin: 0 0 5px; }
+  margin: 0 0 8px;
+  line-height: 1.5; }
+
+.event-detail .workshop-contents-detail {
+  margin: 0 0 16px; }
 
 footer {
   text-align: center;
