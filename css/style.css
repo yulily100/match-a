@@ -506,7 +506,11 @@ h2, h3 {
   margin: 5px 0 10px;
   font-size: 90%;
   text-align: left;
-  line-height: 1.5; }
+  line-height: 1.5;
+  height: 105px; }
+  @media (max-width: 1024px) {
+    .workshop-description {
+      height: inherit; } }
 
 .workshop-contents-detail {
   font-size: 80%;
